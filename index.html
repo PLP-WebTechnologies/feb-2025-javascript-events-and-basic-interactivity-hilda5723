@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events & Interactivity 🌸</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎀 JavaScript Events & Interactivity 🎀</h1>
+
+        <!-- 💖 Counter Section -->
+        <div class="counter-section">
+            <p>💜 Count: <span id="counter">0</span></p>
+            <button class="btn" id="increase">➕ Increase</button>
+            <button class="btn" id="decrease">➖ Decrease</button>
+        </div>
+
+        <!-- 💖 Form with Validation -->
+        <form id="userForm">
+            <label for="username">Name:</label>
+            <input type="text" id="username" required>
+            <p class="error" id="nameError"></p>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <p class="error" id="emailError"></p>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required minlength="6">
+            <p class="error" id="passwordError"></p>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+
+        <!-- 💖 Toggle Visibility -->
+        <div>
+            <button class="btn" id="toggleBoxBtn">🎀 Show/Hide Box</button>
+            <div id="box" class="box">💗 I'm a hidden box! 💗</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
